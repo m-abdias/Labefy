@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+/* Estilização header do site */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 30rem;
+  border-bottom: 1px solid rgb(235, 11, 216);
+  box-shadow: 0 5px rgba(179, 236, 231, 0.87);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 10vh;
+}
+
+.h3-gradiente {
+  font-size: 5vh;
+  background-image: linear-gradient(
+    to bottom,
+    turquoise,
+    rgb(79, 153, 196),
+    rgb(235, 11, 216)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+
+.p-gradiente {
+  font-size: 3vh;
+  background-image: linear-gradient(
+    to bottom,
+    turquoise,
+    rgb(79, 153, 196),
+    rgb(235, 11, 216)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+
+/* Estilização header do site */
+.criar-playlist {
+  display: flex;
+  flex-direction: column;
+  width: 42vh;
+  height: 5.5vw;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  margin: 0.8rem;
+  border: 1px solid rgb(235, 11, 216);
+  border-radius: 5px;
+  box-shadow: 5px 5px rgba(179, 236, 231, 0.87);
+}
+
+.inputPlaylist {
+  border-radius: 10px 0 0 10px;
+  padding: 6px;
+}
+
+.buttonPlaylist {
+  border-radius: 0 10px 10px 0;
+  background-color: rgb(128, 192, 229);
+  color: white;
+  padding: 6px;
+}
+
+.buttonPlaylist:hover {
+  background-color: rgb(229, 128, 204);
+}
+
+.inputsMusicas {
+  border-radius: 10px;
+  padding: 6px;
+  margin: 3px;
+  width: 35vh;
+}
+
+.buttonAdicionarMusicas {
+  border-radius: 10px;
+  background-color: rgb(128, 192, 229);
+  color: white;
+  padding: 8px;
+  width: 18vh;
+  justify-content: center;
+}
+
+.buttonAdicionarMusicas:hover {
+  background-color: rgb(229, 128, 204);
+}
+
+.criar-musicas {
+  display: flex;
+  flex-direction: column;
+  width: 42vh;
+  height: 11vw;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  margin: 0.8rem;
+  border: 1px solid rgb(235, 11, 216);
+  border-radius: 5px;
+  box-shadow: 5px 5px rgba(179, 236, 231, 0.87);
+}
+
+.main {
+  display: flex;
+}
+
+.playlists-criadas {
+  display: flex;
+  flex-direction: column;
+  width: 120vh;
+  height: 32vw;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid rgb(235, 11, 216);
+  border-radius: 5px;
+  box-shadow: 5px 5px rgba(179, 236, 231, 0.87);
+}
+
+.playlist-nomes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(109, 96, 226, 0.712);
+  cursor: pointer;
+}
+
+.tocando {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: blueviolet;
+  margin: 15px 0;
+}
+
+.playlist-nomes:hover {
+  color: blueviolet;
+}
+
+.playlist-musicas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(109, 96, 226, 0.712);
+}
+
+.playlist-musicas:hover {
+  color: blueviolet;
+}
+
+.musicas-criadas {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid rgb(235, 11, 216);
+  border-radius: 5px;
+  box-shadow: 5px 5px rgba(179, 236, 231, 0.87);
+}
+
+.tocar-musica {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 42vh;
+  height: 10vw;
+  padding: 1rem;
+  margin: 0.8rem;
+  border: 1px solid rgb(235, 11, 216);
+  border-radius: 5px;
+  box-shadow: 5px 5px rgba(179, 236, 231, 0.87);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
